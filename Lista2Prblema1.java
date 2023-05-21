@@ -19,6 +19,8 @@ public class Lista2Prblema1 {
         System.out.println("Digite o segundo número:");
         numero2 = teclado.nextInt();
 
+        teclado.close();
+
         if (numero1>numero2) {
             System.out.println("O maior número entre eles é:["+numero1+"]");
         } else {  System.out.println("O maior número entre eles é:["+numero2+"]");

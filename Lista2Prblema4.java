@@ -16,6 +16,7 @@ public class Lista2Prblema4 {
          System.out.println("Digite um número:");
          numero = teclado.nextInt();
 
+         teclado.close();
 
          if (numero % 2 == 0 ) {
 

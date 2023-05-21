@@ -25,6 +25,8 @@ class Lista2Prblema9{
 		
 		pagamento = teclado.nextInt();
 
+    teclado.close();
+
 		 switch (pagamento) {
 				    case 1:
 				    System.out.println("Valor total da venda:");

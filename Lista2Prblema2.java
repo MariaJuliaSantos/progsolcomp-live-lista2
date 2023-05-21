@@ -23,6 +23,8 @@ public class Lista2Prblema2 {
         System.out.println("Digite o terceiro número:");
         c = teclado.nextInt();
 
+        teclado.close();
+
         System.out.println("Números em ordem crescente:");
 
         if(a<b) { 

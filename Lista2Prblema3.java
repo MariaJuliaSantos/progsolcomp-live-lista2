@@ -15,6 +15,8 @@ public class Lista2Prblema3 {
         System.out.print("Digite o valor de B: ");
         int b = teclado.nextInt();
 
+        teclado.close();
+
         if (a % b == 0 || b % a == 0) {
             System.out.println("São múltiplos");
         } else {
